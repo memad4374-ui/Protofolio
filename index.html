@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal portfolio of a web developer: skills, projects and experience.">
+  <title>Maram Emad | Web Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main navigation">
+      <a class="logo" href="#home">Your Name</a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="menu" id="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Hi, I'm Maram Emad</h1>
+          <p class="role" id="role" aria-live="polite">Web Developer</p>
+          <p>I build responsive websites with HTML, CSS and JavaScript. I care about clean code and pages that are easy to use on any screen.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#projects">View my projects</a>
+            <a class="btn btn-outline" href="#contact">Contact me</a>
+          </div>
+        </div>
+        <img class="avatar" src="assets/My Pic.jpeg" alt="Portrait of Your Name" width="320" height="320">
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container two-col">
+        <h2>About me</h2>
+        <div>
+          <p>I'm a web developer based in Cairo. I started learning to code because I like turning an idea into something people can open and use. Since then I've built websites and small web apps, and I'm now looking for my first role or freelance projects.</p>
+          <p>Right now I'm strengthening my JavaScript, learning Git workflows, and practicing how to design layouts that work on phones first.</p>
+          <p><a class="text-link" href="assets/Maram Emad abdelahafy.pdf" download>Download my CV</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="skills">
+      <div class="container">
+        <h2>Skills and technologies</h2>
+        <div class="skill-grid">
+          <article class="skill-card">
+            <h3>Front-end</h3>
+            <ul>
+              <li>HTML5 and semantic markup</li>
+              <li> Flexbox</li>
+              <li>JavaScript (DOM, events, forms)</li>
+              <li>Responsive design</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Tools</h3>
+            <ul>
+              <li>Git and GitHub</li>
+              <li>VS Code</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Learning now</h3>
+            <ul>
+              <li>Python</li>
+              <li>Html and CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <h2>Experience and education</h2>
+        <ol class="timeline">
+          <li>
+            <time datetime="2026">2026 - Present</time>
+            <h3>ITI react-Front-end Course</h3>
+            <p>Training in HTML, CSS, JavaScript and Git. Built a portfolio .</p>
+          </li>
+          <li>
+            <time datetime="2026">2026</time>
+            <h3> Bank Masr-Internship</h3>
+            <p> I gained experience in financial and banking matters.</p>
+          </li>
+          <li>
+            <time datetime="2024">2024 - 2027</time>
+            <h3>Helwan National University /Humanities,Commerce and Vusiness Administration</h3>
+            <p> I'm student majoring in Business informatics and digital transformation .</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section alt" id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+
+          <article class="project-card">
+            <img src="assets/Library.png" alt="Screenshot of the Library Website" loading="lazy" width="600" height="360">
+            <div class="project-body">
+              <h3>Library</h3>
+              <p>buy an online Books </p>
+              <p class="tags"> HTML,CSS</p>
+              <div class="links">
+                <a href="https://memad4374-ui.github.io/library/">Live demo</a><a href="https://memad4374-ui.github.io/library/">Repository</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+         <article class="project-card">
+            <img src="assets/Screenshot 2026-10-23 191315.png" alt="Screenshot of the To-Do-List Website" loading="lazy" width="600" height="360">
+            <div class="project-body">
+              <h3>To-Do-List</h3>
+              <p> This is a Daily To-Do-List to organize your daily tasks</p> 
+              <p class="tags"> HTML,CSS,JavaScript</p>
+              <div class="links"><a href="https://memad4374-ui.github.io/To-do-list-/">Live demo</a><a href="https://memad4374-ui.github.io/To-do-list-/">Repository</a></div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container two-col">
+        <div>
+          <h2>Contact me</h2>
+          <p>Have a project or a job in mind? Send a message and I'll reply within two days.</p>
+          <ul class="contact-list">
+            <li>Email: <a href="memad4374@gmail.com">Maram</a></li>
+            <li>GitHub: <a href="https://github.com/memad4374-ui">memad4374-ui</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/maram-emad-96a895356/">Maram Emad</a></li>
+          </ul>
+        </div>
+        <form id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name">
+            <span class="error" id="nameError"></span>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email">
+            <span class="error" id="emailError"></span>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+            <span class="error" id="messageError"></span>
+          </div>
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Maram Emad, Built with HTML, CSS and JavaScript.</p>
+      <a href="#home">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
